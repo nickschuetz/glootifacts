@@ -1,0 +1,20 @@
+gloo:
+  deployment:
+    floatingUserId: true
+discovery:
+  deployment:
+    floatingUserId: true
+    enablePodSecurityContext: false
+gateway:
+  deployment:
+    floatingUserId: true
+  certGenJob:
+    floatingUserId: true
+oberservability:
+  deployment:
+    floatingUserId: true
+gatewayProxies:
+  gatewayProxy:
+    podTemplate:
+      floatingUserId: true
+      enablePodSecurityContext: false
